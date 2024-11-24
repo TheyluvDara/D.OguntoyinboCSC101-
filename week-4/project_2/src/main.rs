@@ -11,8 +11,8 @@ fn main() {
 
         if experience == "experienced" {
             println!("Enter your age: ");
-        io::stdin().read_line(&mut input2).expect("Not a valid string");
-        let age:i32 = input2.trim().parse().expect("not a valid number");
+            io::stdin().read_line(&mut input2).expect("Not a valid string");
+            let age:i32 = input2.trim().parse().expect("not a valid number");
 
             if age >= 40 {
                 println!("Annual Incentive: N1,560,000");
